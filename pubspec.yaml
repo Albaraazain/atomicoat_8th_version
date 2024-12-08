@@ -6,7 +6,7 @@ publish_to: 'none'
 version: 1.0.0+2
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -40,7 +40,7 @@ dependencies:
   audioplayers: ^6.1.0
   firebase_core: ^3.5.0
   firebase_auth: ^5.3.0
-  cloud_firestore: ^5.4.1
+  cloud_firestore: ^5.5.1
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   build_runner: ^2.3.3
@@ -50,8 +50,7 @@ dependencies:
   firebase_dart: ^1.0.11
   http: ^1.2.2
   firebase_auth_rest: ^2.0.6
-
-
+  flutter_bloc: ^8.1.6
 
 
 dev_dependencies:
@@ -67,5 +66,5 @@ flutter:
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 700
   assets:
-    - assets/ald_system_diagram.png
     - assets/initial_components.json
+    - assets/ald_system_diagram.png
